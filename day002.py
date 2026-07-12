@@ -97,35 +97,38 @@
 
 
 # question12 find the no of elements in the list
-a=[32,235,235,6573,234,35,346]
-len(a)
-print(len(a))
+# a=[32,235,235,6573,234,35,346]
+# len(a)
+# print(len(a))
 
 
 #question 13 find the sum of all elements in the list
-a=[32,235,235,6573,234,35,346]
-sum=0
-for i in a:
-    sum=sum+i
-print(f"the sum of all the elements are {sum}")
+# a=[32,235,235,6573,234,35,346]
+# sum=0
+# for i in a:
+#     sum=sum+i
+# print(f"the sum of all the elements are {sum}")
 
 
 #question 14 find the product of all elements in the list
-a=[32,235,235,6573,234,35,346]
-pro=1
-for i in a:
-    pro=pro*i
-print(f"the product of all the elements are {pro}")
+# a=[32,235,235,6573,234,35,346]
+# pro=1
+# for i in a:
+#     pro=pro*i
+# print(f"the product of all the elements are {pro}")
 
 
 # question 15 print even and odd elements in the list seperately
-a=[32,235,235,6573,234,35,346]
-even=[]
-odd=[]
-for i in a:
-    if i%2==0:
-        even.append(i)
-    else:
-        odd.append(i)
-print(f'the even elements are {even}')
-print(f'the odd elements are {odd}')
+# a=[32,235,235,6573,234,35,346]
+# even=[]
+# odd=[]
+# for i in a:
+#     if i%2==0:
+#         even.append(i)
+#     else:
+#         odd.append(i)
+# print(f'the even elements are {even}')
+# print(f'the odd elements are {odd}')
+
+
+
