@@ -131,4 +131,3 @@
 # print(f'the odd elements are {odd}')
 
 
-

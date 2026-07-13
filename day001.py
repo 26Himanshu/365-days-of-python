@@ -95,7 +95,7 @@
 # for i in range(n,0,-1):
 #     print(i)
 
-#question 15 to find the factor   of a no
+#question 15 to find the factor of a no
 # n=int(input("enter the no"))
 # for i in range(1,n+1):
 #     if n%i==0:

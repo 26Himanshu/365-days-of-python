@@ -107,6 +107,6 @@
 # print (f"the difference is {a[9]-a[0]}")
 
 #to check how many time tuesday is coming in the tuple
-a=["monday","tuesday",244,25235,4646 ,1,1,1,1,2,2,3,53,6,856,"tuesday"]
-a.count("tuesday")
-print(a.count("tuesday"))
+# a=["monday","tuesday",244,25235,4646 ,1,1,1,1,2,2,3,53,6,856,"tuesday"]
+# a.count("tuesday")
+# print(a.count("tuesday"))
