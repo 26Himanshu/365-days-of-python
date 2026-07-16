@@ -280,14 +280,35 @@
 
 
 #check if the no is palidrome or no
-a=int(input("enter the no"))
-copy=a
-rev=0
-while a>0:
-    rev=rev*10+a%10
-    a=a//10
-if rev==copy:
-        print(f'the no is palidrome')
+# a=int(input("enter the no"))
+# copy=a
+# rev=0
+# while a>0:
+#     rev=rev*10+a%10
+#     a=a//10
+# if rev==copy:
+#         print(f'the no is palidrome')
 
-else:
-        print(f'the no is not palidrome')
+# else:
+#         print(f'the no is not palidrome')
+
+
+##pyhton game using random no ##
+import random 
+
+computer=random.randint(1,100)
+
+while True:
+    human=int(input("enter the no between 1 to 100"))
+
+    if human==computer:
+      print('you won the game')
+      break
+
+    elif human>computer:
+      print('go down ')
+      
+    elif human<computer:
+     print('go up')
+
+
