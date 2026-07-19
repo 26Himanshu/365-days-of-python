@@ -60,22 +60,22 @@ d2={"b":2}
 # print(sum)
 
 #question 3 counting the frequency of each and put hem into dictionary 
-# a=['a','b','c','a','b','a']
-# d={}
-# for i in a:
-#     if i in d.keys():
-#         d[i]=d[i]+1
-#     else:
-#         d[i]=1
-# print(d)
+a=['a','b','c','a','b','a']
+d={}
+for i in a:
+    if i in d.keys():
+        d[i]=d[i]+1
+    else:
+        d[i]=1
+print(d)
 
 
 #question 
-d1={"a":1,"b":2,"c":3}
-d2={"c":4,"e":5,"f":6}
-for i in d2:
-    if i in d1.keys():
-        d1[i]=d1[i]+d2[i]
-    else:
-        d1[i]=d2[i]
-print(d1)
+# d1={"a":1,"b":2,"c":3}
+# d2={"c":4,"e":5,"f":6}
+# for i in d2:
+#     if i in d1.keys():
+#         d1[i]=d1[i]+d2[i]
+#     else:
+#         d1[i]=d2[i]
+# print(d1)

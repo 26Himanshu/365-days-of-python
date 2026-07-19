@@ -29,14 +29,14 @@
 # print(f'the greatest element is {gre} and its index is {a.index(gre)}')
 
 
-# a=[3423,3523,23523,232,43562352]
-# gre=a[0]
-# index=0
-# for i in range(len(a)):
-#     if a[i]>gre:
-#         gre=a[i]
-#         index=i
-# print(f'the gretest no is {a[i]} and the index is {index}' )
+a=[3423,3523,23523,232,43562352]
+gre=a[0]
+index=0
+for i in range(len(a)):
+    if a[i]>gre:
+        gre=a[i]
+        index=i
+print(f'the gretest no is {a[i]} and the index is {index}' )
 
 
 #find the second greatest element
