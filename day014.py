@@ -99,11 +99,17 @@
 
 
 # to check whether the no is palindrome or not
-a=input("enter the no")
-rev=""
-for i in range(len(a)-1,-1,-1):
-    rev+=a[i]
-if rev==a:
-    print(f"the no {a} is palindrome")
-else:
-    print(f"the no {a} is not palindrome")
+# a=input("enter the no")
+# rev=""
+# for i in range(len(a)-1,-1,-1):
+#     rev+=a[i]
+# if rev==a:
+#     print(f"the no {a} is palindrome")
+# else:
+#     print(f"the no {a} is not palindrome")    
+
+
+a=int(input('enter the no'))
+for i in range(1,a+1):
+        print(i)
+        
