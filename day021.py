@@ -20,3 +20,13 @@ while True:
         print("sorry wrong guess go higher")
     elif com<hum:
         print("sorry wrong guess go lower")
+
+
+
+
+#how to print table 
+
+n=int(input("enter the no"))
+for i in range(n,n*10+1,n):
+
+print(i)
