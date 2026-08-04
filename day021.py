@@ -22,8 +22,11 @@ while True:
         print("sorry wrong guess go lower")
 
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> fb60c22 (copy past)
 #how to print table 
 
 n=int(input("enter the no"))
